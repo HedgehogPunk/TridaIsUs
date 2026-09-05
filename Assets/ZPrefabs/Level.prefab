@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6968924517213378871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6968924517213378873}
+  - component: {fileID: 6968924517213378872}
+  - component: {fileID: 6968924517213378875}
+  - component: {fileID: 6968924517213378874}
+  - component: {fileID: 6968924517213378869}
+  - component: {fileID: 6968924517213378868}
+  - component: {fileID: 6968924517213378878}
+  - component: {fileID: 6968924517213378879}
+  - component: {fileID: 6968924517213378876}
+  m_Layer: 0
+  m_Name: Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6968924517213378873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6968924517213378871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5, y: 0.5, z: -0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6968924517213378872
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6968924517213378871}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 25, y: 25, z: 1}
+  m_Center: {x: 12.5, y: 12, z: 0}
+--- !u!65 &6968924517213378875
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6968924517213378871}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 25, y: 25, z: 1}
+  m_Center: {x: 12.5, y: 12, z: 26}
+--- !u!65 &6968924517213378874
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6968924517213378871}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 25, z: 25}
+  m_Center: {x: -0.5, y: 12, z: 12.5}
+--- !u!65 &6968924517213378869
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6968924517213378871}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 25, z: 25}
+  m_Center: {x: 26, y: 12, z: 12.5}
+--- !u!65 &6968924517213378868
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6968924517213378871}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 25, y: 1, z: 25}
+  m_Center: {x: 12.5, y: 25.5, z: 12.5}
+--- !u!114 &6968924517213378878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6968924517213378871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75af72662ead1f946bed15b7c893ed0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  youManager: {fileID: 6968924517213378876}
+  sushWords:
+  - Trida
+  - Wall
+  - Flag
+  - Rock
+  - Door
+  - Key
+  - Text
+  - All
+  - Skull
+  - 3Da
+  operators:
+  - Is
+  - And
+  - Can
+  - Not
+  actions:
+  - You
+  - Win
+  - Stop
+  - Push
+  - Death
+  - Fly
+  - Rotate
+  - Open
+  - Shut
+  - Move
+  DicStrings:
+  - Wall
+  - Trida
+  - Door
+  - Key
+  - Rock
+  - Flag
+  - Skull
+  - 3Da
+  DicPrefabs:
+  - {fileID: 2797058572250288633, guid: eac761ac89c99cb40a59740d00f4d87a, type: 3}
+  - {fileID: 6807468908653819415, guid: a6eb76f765ed6e04cb9015afe0f17716, type: 3}
+  - {fileID: 6464666219615580482, guid: 5c54b637db1627f4ab777213240bf70f, type: 3}
+  - {fileID: 6464666219615580482, guid: bff5d233d19a7954abf9a7810ce56415, type: 3}
+  - {fileID: 2855241110467171368, guid: 02439ed3038992048a891491ce2b49f6, type: 3}
+  - {fileID: 39735467688171139, guid: f5706b923eb59c94ba8476066b145c4d, type: 3}
+  - {fileID: 2797058572250288633, guid: 0721c3d1abd70ec47b434b070e3f9fec, type: 3}
+  - {fileID: 6807468908653819415, guid: e23db399bec25054585ae2cba0a9dd7e, type: 3}
+  UndoDicStrings:
+  - Door
+  - Flag
+  - Key
+  - Rock
+  - Trida
+  - Wall
+  - AllText
+  - AndText
+  - DeathText
+  - FlagText
+  - FlyText
+  - IsText
+  - PushText
+  - RockText
+  - RotateText
+  - StopText
+  - TextText
+  - TridaText
+  - WallText
+  - WinText
+  - YouText
+  - RotateDeathText
+  - WinDeathText
+  - WinRockText
+  - DeathWinText
+  - FlagRockText
+  - IsYouWinText
+  - PushFlyText
+  - 16RockTridaText
+  - 16RockWallText
+  - 16PushWinText
+  - YouWinFlyPushDeathStopText
+  - WallTextTridaRockAllFlagText
+  - AllTextTridaFlagWallRockText
+  - PushYouText
+  - YouPushText
+  - FlyPushYouText
+  - PushWinDeathText
+  - YouFlyText
+  - TridaRockText
+  - PushWinText
+  - NotText
+  - ShutText
+  - OpenText
+  - MoveText
+  - Skull
+  - 3Da
+  - 3DaText
+  - SkullText
+  - DoorText
+  - KeyText
+  UndoDicPrefabs:
+  - {fileID: 6464666219615580482, guid: 5c54b637db1627f4ab777213240bf70f, type: 3}
+  - {fileID: 39735467688171139, guid: f5706b923eb59c94ba8476066b145c4d, type: 3}
+  - {fileID: 6464666219615580482, guid: bff5d233d19a7954abf9a7810ce56415, type: 3}
+  - {fileID: 2855241110467171368, guid: 02439ed3038992048a891491ce2b49f6, type: 3}
+  - {fileID: 6807468908653819415, guid: a6eb76f765ed6e04cb9015afe0f17716, type: 3}
+  - {fileID: 2797058572250288633, guid: eac761ac89c99cb40a59740d00f4d87a, type: 3}
+  - {fileID: 6822228995713105412, guid: 44696cb07196f1e4fb568819439cf877, type: 3}
+  - {fileID: 4190762220249532080, guid: 8bfa1937f7422654ea05e58bf363010f, type: 3}
+  - {fileID: 2100173305463464669, guid: a06d08d50a915544b8a0295c5241a411, type: 3}
+  - {fileID: 1268678043232248196, guid: 840881e175c560c4c8795b0f723475bb, type: 3}
+  - {fileID: 6915296819750793462, guid: 77bab3cc919919a45811ece1b84ad9d4, type: 3}
+  - {fileID: 4190762220249532080, guid: 62e8d893eaef60e4e8b4d6029990613b, type: 3}
+  - {fileID: 8887322881112191671, guid: edcf23a8de7100c4382ef33f64dde5cc, type: 3}
+  - {fileID: 5768478529495811820, guid: 5f517343ab0a6f340b17f08db833ac93, type: 3}
+  - {fileID: 2100173305463464669, guid: 7d49ed4692aedbe40a1934039b5a16ee, type: 3}
+  - {fileID: 6915296819750793462, guid: eadbbc3bb2583674aaccc4282e27f860, type: 3}
+  - {fileID: 5768478529495811820, guid: 63842b421669b53489a0af600c10f190, type: 3}
+  - {fileID: 732862582410477867, guid: f36839ed16f179a40acfd3f3c0b43162, type: 3}
+  - {fileID: 6822228995713105412, guid: ddadff3809c400245a2546d65181b2db, type: 3}
+  - {fileID: 2100173305463464669, guid: a899aa095b2a6ea4486ab34764c64b0a, type: 3}
+  - {fileID: 4518628451777523280, guid: a8642f311e2b01e48b2cf35e957ff3d0, type: 3}
+  - {fileID: 2100173305463464669, guid: f8876573a3d4b124394ff00f9eec9cd5, type: 3}
+  - {fileID: 2100173305463464669, guid: 64c68983c4d054c40ace0783e5991284, type: 3}
+  - {fileID: 2100173305463464669, guid: f61b2b7d5c6b31a479e4f30d1e8bc4f4, type: 3}
+  - {fileID: 2100173305463464669, guid: 88c33f0afe874f941b58ca0a2ea1676d, type: 3}
+  - {fileID: 2100173305463464669, guid: a53904df9c7237f47847bb5d5832974f, type: 3}
+  - {fileID: 4190762220249532080, guid: 00f8ccde7ff21ec47b939354b20202de, type: 3}
+  - {fileID: 8887322881112191671, guid: 73c8bdf0d026d8a4581f95e22045c9f2, type: 3}
+  - {fileID: 5768478529495811820, guid: 328a2c6d0f0fef144bb9eba614182d7d, type: 3}
+  - {fileID: 5768478529495811820, guid: e5dd3ee4a112c0749a8d6366411d4351, type: 3}
+  - {fileID: 8887322881112191671, guid: 258d8c4470656454f8266f82a33833e6, type: 3}
+  - {fileID: 8887322881112191671, guid: f5477966b96f59f418934c9d15308d14, type: 3}
+  - {fileID: 2100173305463464669, guid: 2340687e00f05174ebd5cb8bd248a9d1, type: 3}
+  - {fileID: 2100173305463464669, guid: a8870991829bc9c40a655c440e1c5018, type: 3}
+  - {fileID: 8887322881112191671, guid: 4ab7e06ea5ffc94439421e671bd49c34, type: 3}
+  - {fileID: 4518628451777523280, guid: 0f864806b493a3d449ac349b361f9901, type: 3}
+  - {fileID: 4518628451777523280, guid: 8540c6c93354b6145afd4edbc1781175, type: 3}
+  - {fileID: 2100173305463464669, guid: 7c412b9c2e92ab840adc5d86b3b56279, type: 3}
+  - {fileID: 4518628451777523280, guid: e5e52a5b37e5006438bc072e323a2fc9, type: 3}
+  - {fileID: 732862582410477867, guid: 6629fd6682487734da48aec8352a6cae, type: 3}
+  - {fileID: 8887322881112191671, guid: 33bf3d3aaed7f764e9151515a011042e, type: 3}
+  - {fileID: 2100173305463464669, guid: 3e864490cf2919a4d9c7ea6959928677, type: 3}
+  - {fileID: 2100173305463464669, guid: 1cec232df3ec3384f86558ffa66f42f6, type: 3}
+  - {fileID: 2100173305463464669, guid: 782ca4639e9970e4086aaf7017f1dff7, type: 3}
+  - {fileID: 8887322881112191671, guid: d8adbda1eb9a19142954a6ffc0745ecb, type: 3}
+  - {fileID: 2797058572250288633, guid: 0721c3d1abd70ec47b434b070e3f9fec, type: 3}
+  - {fileID: 6807468908653819415, guid: e23db399bec25054585ae2cba0a9dd7e, type: 3}
+  - {fileID: 6822228995713105412, guid: f05153cd3f4ffef4999572b150c8c1a4, type: 3}
+  - {fileID: 2100173305463464669, guid: 7d4c8b054169fdf45bedcb62965fa0a9, type: 3}
+  - {fileID: 8887322881112191671, guid: dcbe380a37c7ae54eaaf90bf7eb70684, type: 3}
+  - {fileID: 2100173305463464669, guid: 7402ed2f0d9559c48ade2aea7111f7a7, type: 3}
+--- !u!114 &6968924517213378879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6968924517213378871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65849f403568cc3458930625e9eb418c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rules: {fileID: 6968924517213378878}
+--- !u!114 &6968924517213378876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6968924517213378871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9274b1789758fff4a90070d84c4fa4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yous: []
+  waitforSecondsFloat: 0.17
+  canMove: 0
+  waiting: 0
